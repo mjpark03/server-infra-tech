@@ -1,0 +1,6 @@
+
+# username: repl
+# password: qa55
+# slave network: 192.168.31.0/24
+# this command should be excuted in master server
+mysql> GRANT REPLICATION SLAVE ON *.* TO repl@'192.168.31.0/ 255.255.255.0' IDENTIFIED BY 'qa55';
